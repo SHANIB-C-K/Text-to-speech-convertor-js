@@ -99,6 +99,23 @@ button:hover {
 /* small devices code */
 
 @media all and (max-width: 700px) {
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+  }
+
+  .hero {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #050000, #2f0101);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   .hero h1 {
     font-size: 20px;
   }
@@ -113,7 +130,20 @@ button:hover {
   }
 
   .row {
+    height: 95px;
     display: flex;
     flex-direction: column;
+  }
+
+  select {
+    height: 100px;
+    background-size: 12px;
+    background-position-x: calc(100% - 13px);
+    background-position-y: 16px;
+  }
+
+  button:hover {
+    cursor: pointer;
+    filter: brightness(75%);
   }
 }
