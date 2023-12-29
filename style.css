@@ -31,7 +31,7 @@ textarea {
   width: 600px;
   height: 250px;
   background: #0d0d0d;
-  color: #fff;
+  color: #008000;
   font-size: 15px;
   border: 0;
   outline: 0;
@@ -39,4 +39,10 @@ textarea {
   border-radius: 10px;
   resize: none;
   border: 1px solid #006600;
+  margin-bottom: 30px;
+}
+
+textarea::placeholder {
+  font-size: 16px;
+  color: #5a5a5a;
 }
