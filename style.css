@@ -73,3 +73,15 @@ button img {
   width: 16px;
   margin-right: 10px;
 }
+
+select {
+  flex: 1;
+  color: #008000;
+  background: #0d0d0d;
+  height: 50px;
+  padding: 0 20px;
+  outline: 0;
+  border: 0;
+  border-radius: 35px;
+  border: 1px solid #006600;
+}
