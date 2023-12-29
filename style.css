@@ -98,8 +98,22 @@ button:hover {
 
 /* small devices code */
 
-@media all and (max-width: 400px) {
+@media all and (max-width: 700px) {
   .hero h1 {
     font-size: 20px;
+  }
+
+  textarea {
+    width: 310px;
+    height: 160px;
+  }
+
+  textarea::placeholder {
+    font-size: 14px;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
   }
 }
