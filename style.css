@@ -46,3 +46,10 @@ textarea::placeholder {
   font-size: 16px;
   color: #5a5a5a;
 }
+
+.row {
+  width: 600px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
