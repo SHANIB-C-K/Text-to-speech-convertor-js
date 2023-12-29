@@ -53,3 +53,16 @@ textarea::placeholder {
   align-items: center;
   gap: 20px;
 }
+
+button {
+  background: #ff2963;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 30px;
+  cursor: pointer;
+  border-radius: 35px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
