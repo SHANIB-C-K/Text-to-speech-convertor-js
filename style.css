@@ -14,3 +14,29 @@
   justify-content: center;
   align-items: center;
 }
+
+.hero h1 {
+  font-size: 45px;
+  font-weight: 500;
+  margin-top: -50px;
+  margin-bottom: 50px;
+  color: #6b6060;
+}
+
+.hero h1 span {
+  color: #ff2963;
+}
+
+textarea {
+  width: 600px;
+  height: 250px;
+  background: #0d0d0d;
+  color: #fff;
+  font-size: 15px;
+  border: 0;
+  outline: 0;
+  padding: 20px;
+  border-radius: 10px;
+  resize: none;
+  border: 1px solid #006600;
+}
