@@ -91,3 +91,15 @@ select {
   background-position-x: calc(100% - 20px);
   background-position-y: 20px;
 }
+
+button:hover {
+  filter: brightness(75%);
+}
+
+/* small devices code */
+
+@media all and (max-width: 400px) {
+  .hero h1 {
+    font-size: 20px;
+  }
+}
