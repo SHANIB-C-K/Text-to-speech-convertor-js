@@ -139,7 +139,7 @@ button:hover {
     height: 100px;
     background-size: 12px;
     background-position-x: calc(100% - 13px);
-    background-position-y: 13px;
+    background-position-y: 14px;
   }
 
   button:hover {
