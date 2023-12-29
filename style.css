@@ -13,6 +13,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .hero h1 {
@@ -21,10 +22,22 @@
   margin-top: -50px;
   margin-bottom: 50px;
   color: #6b6060;
+  position: relative;
 }
 
 .hero h1 span {
   color: #ff2963;
+  position: relative;
+  display: inline-block;
+  animation: flip 2s infinite;
+  animation-delay: calc(0.2s * var(--i));
+}
+
+@keyframes flip {
+  0%,
+  80% {
+    transform: rotateY(360deg);
+  }
 }
 
 textarea {
